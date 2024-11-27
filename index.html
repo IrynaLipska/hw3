@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Візитівка Фронтенд-Розробника</title>
+    <style>
+      body {
+        font-family: "Palatino Linotype", serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333dfa;
+        padding: 20px;
+        text-align: center;
+      }
+      main {
+        display: contents;
+      }
+      nav {
+        margin: 20px;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #22b9f0;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+      }
+      ul {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.3em;
+        color: #0078d7;
+      }
+      footer {
+        background-color: #333dfa;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }
+      img {
+        max-width: 10%;
+        height: auto;
+        border-radius: 20%;
+        box-shadow: 0px 10px 3px 0px #0078d7;
+      }
+      h2 {
+        color: #000be2;
+      }
+      h1 {
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Привіт! Я — Ірина, фронтенд-розробник</h1>
+      <img src="./img/photo.jpg" alt="Моє фото" ; />
+    </header>
+
+    <nav>
+      <a href="#about">Про мене</a>
+      <a href="#skills">Мої навички</a>
+      <a href="#portfolio">Портфоліо</a>
+      <a href="#resume">Моє резюме</a>
+      <a href="https://github.com/IrynaLipska">Мій GitHub</a>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>Про мене</h2>
+        <p>
+          Мене звати Ірина, і я спеціалізуюся на створенні сучасних
+          веб-додатків. Захоплююся програмуванням, дизайном та технологіями.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Мої навички</h2>
+        <ul>
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>React, Angular</li>
+          <li>Git та системи контролю версій</li>
+          <li>Оптимізація продуктивності веб-додатків</li>
+        </ul>
+      </section>
+
+      <section id="portfolio">
+        <h2>Портфоліо</h2>
+        <article>
+          <h3>
+            <a href="https://example.com/project1" target="_blank"
+              >Проєкт 1: Сайт портфоліо</a
+            >
+          </h3>
+          <p>
+            Це мій перший великий проєкт, створений з використанням HTML, CSS та
+            JavaScript.
+          </p>
+        </article>
+        <article>
+          <h3>
+            <a href="https://example.com/project2">Проєкт 2: Блог на React</a>
+          </h3>
+          <p>
+            Платформа для розміщення блогів, створена з використанням React та
+            API для управління контентом.
+          </p>
+        </article>
+      </section>
+
+      <section id="resources">
+        <h2>Корисні матеріали</h2>
+        <p>Ось декілька ресурсів, які допомогли мені вивчити фронтенд:</p>
+        <ul>
+          <li>
+            <a href="https://developer.mozilla.org/uk/" target="_blank">
+              MDN Web Docs</a
+            >
+            <p>
+              Велика база знань з веб-технологій: HTML, CSS, JavaScript та інші.
+            </p>
+          </li>
+          <li>
+            <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a>
+            <p>Корисні трюки та поради для роботи з CSS.</p>
+            <iframe
+              src="https://css-tricks.com/"
+              width="100%"
+              height="400px"
+              title="CSS-Tricks"
+              style="border: 1px solid #ddd"
+            >
+            </iframe>
+          </li>
+          <li>
+            <a href="https://frontendmentor.io/" target="_blank"
+              >Frontend Mentor</a
+            >
+            <p>Платформа для практики створення реальних проєктів.</p>
+            <!-- <iframe
+              src="https://frontendmentor.io/"
+              width="100%"
+              height="400px"
+              title="Frontend Mentor"
+              style="border: 1px solid #ddd"
+            >
+            </iframe> -->
+          </li>
+          <li>
+            <a href="https://beetroot.academy/" target="_blank"
+              >Beetroot Academy</a
+            >
+            <div>
+              <iframe
+                width="815"
+                height="400px"
+                src="https://www.youtube.com/embed/dEBVe8Ij7JU?list=PLytQ0YczAfcdj-OUqWO20vPsr0ix0M1Us"
+                title="Front-End розробка. Сучасні тренди"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                style="border: none"
+              >
+              </iframe>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="resume">
+        <h2>Моє резюме</h2>
+        <iframe
+          src="resume.html"
+          width="100%"
+          height="400px"
+          title="Резюме"
+          style="border: none"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Контакти:
+        <a href="mailto:iranion.l@gmail.com">iranion.l@gmail.com</a>
+      </p>
+      <p>&copy; Ірина Ліпська 2024</p>
+    </footer>
+  </body>
+</html>
